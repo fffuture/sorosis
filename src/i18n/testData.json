@@ -1,0 +1,14 @@
+[
+  {
+    "lang": "zh-CN",
+    "test-data": {
+      "content": "测试内容"
+    }
+  },
+  {
+    "lang": "en-US",
+    "test-data": {
+      "content": "test Content"
+    }
+  }
+]

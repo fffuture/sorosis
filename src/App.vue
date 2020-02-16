@@ -15,6 +15,10 @@ export default {
   name: "app",
   components: {
     // HelloWorld
+  },
+  created: function() {
+    // window.console.log("app this:", this);
+    // console.log("object keys", Object.keys(this));
   }
 };
 </script>

@@ -1,8 +1,4 @@
-
-
-// import defaultLang from 'sorosis/src/locale/lang/zh-CN';
-// import defaultLang from './lang/zh-CN';
-import defaultLang from './lang/en';
+import defaultLang from 'sorosis-ui/src/locale/lang/zh-CN';
 import Vue from 'vue';
 import deepmerge from 'deepmerge';
 import Format from './format';

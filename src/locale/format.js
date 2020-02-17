@@ -1,7 +1,5 @@
 // import { hasOwn } from 'element-ui/src/utils/util';
-
-// import { hasOwn } from 'sorosis/src/utils/util'
-import { hasOwn } from '../utils/util'
+import { hasOwn } from 'sorosis-ui/src/utils/util'
 
 
 const RE_NARGS = /(%|)\{([0-9a-zA-Z_]+)\}/g;

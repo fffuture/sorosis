@@ -1,6 +1,7 @@
 import Vue from 'vue';
 // import { isString, isObject } from 'element-ui/src/utils/types';
-import { isString, isObject } from './types';
+// import { isString, isObject } from './types';
+import { isString, isObject } from 'sorosis-ui/src/utils/types';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

@@ -1,8 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-
-// import sorosis from '../packages/index';
-import sorosis from './index';
+import sorosis from 'packages/index';
 
 Vue.use(sorosis)
 

@@ -13,13 +13,8 @@
 // import RButton from '../node_modules/rainbow-candy/package'
 export default {
   name: "app",
-  components: {
-    // HelloWorld
-  },
-  created: function() {
-    // window.console.log("app this:", this);
-    // console.log("object keys", Object.keys(this));
-  }
+  components: {},
+  created: function() {}
 };
 </script>
 

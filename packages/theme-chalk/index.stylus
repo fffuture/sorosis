@@ -1,1 +1,5 @@
 @import "./common/var.stylus"
+
+.so-btn_primary{
+    background: $so-btn-bgColor;
+  }

@@ -1,5 +1,5 @@
 <template>
-  <button style="color:orange">{{test}} {{t('el.test.name')}}</button>
+  <button class="so-btn_primary" style="color:orange">{{test}} {{t('el.test.name')}}</button>
   <!-- <button style="color:orange">{{ t('el.test.name') }}</button> -->
 </template>
 <script type="text/babel">

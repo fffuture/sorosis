@@ -37,3 +37,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### refactor：重构、  test:增加测试、  
 ### chore：构建过程或辅助工具变动、  
 ### revert：撤销之前的commit
+
+
+###　package.jsong 中 keywords字段： npm包的描述，可以帮助人们在使用 npm search时找到这个包（参考博客：https://www.cnblogs.com/nullcc/p/5829218.html）

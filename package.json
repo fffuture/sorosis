@@ -8,9 +8,22 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "sorosis-ui",
+    "vue",
+    "components"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winwinds/sorosis/issues"
+  },
+  "style": "lib/theme-chalk/index.css",
   "dependencies": {
     "core-js": "^3.4.4",
     "deepmerge": "^4.2.2",
+    "vue": "^2.6.10"
+  },
+  "peerDependencies": {
     "vue": "^2.6.10"
   },
   "devDependencies": {

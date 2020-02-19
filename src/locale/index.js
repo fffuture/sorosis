@@ -7,23 +7,24 @@ const format = Format(Vue);
 let lang = defaultLang;
 let merged = false;
 let i18nHandler = function () {
-  //给vue挂载t(翻译)函数
-  const vuei18n = Object.getPrototypeOf(this || Vue).$t;
-  if (typeof vuei18n === 'function' && !!Vue.locale) {
-    if (!merged) {
-      merged = true;
-      Vue.locale(
-        Vue.config.lang,
-        deepmerge(lang, Vue.locale(Vue.config.lang) || {}, { clone: true })
-      );
-    }
-    return vuei18n.apply(this, arguments);
-  }
+  // const vuei18n = Object.getPrototypeOf(this || Vue).$t;
+  // if (typeof vuei18n === 'function' && !!Vue.locale) {
+  //   if (!merged) {
+  //     merged = true;
+  //     Vue.locale(
+  //       Vue.config.lang,
+  //       deepmerge(lang, Vue.locale(Vue.config.lang) || {}, { clone: true })
+  //     );
+  //   }
+  //   return vuei18n.apply(this, arguments);
+  // }
 };
 
 export const t = function (path, options) {
-  let value = i18nHandler.apply(this, arguments);
-  if (value !== null && value !== undefined) return value;
+  // let value = i18nHandler.apply(this, arguments);
+  console.log("path:", path, "options:", options);
+  let value;
+  // if (value !== null && value !== undefined) return value;
 
   const array = path.split('.');
   let current = lang;
